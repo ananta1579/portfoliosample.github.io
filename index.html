@@ -4,95 +4,166 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ananta's Portfolio</title>
-    <link rel="stylesheet" href="../PortFolio/node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/03aa5ccfb7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#aboutme">ABOUT ME</a></li>
-            <li><a href="#project">PROJECTS</a></li>
-            <li><a href="#contactme">CONTACTS</a></li>
-        </ul>
-    </nav>
-
-    <section class="hero">
+    <div id="header">
         <div class="container">
-            <img id="photo" src="photo.jpeg" alt="error">
-            <h1>Hey, I am Anata Moran</h1>
-            <h2>I am currently pursuing Master of Computer Application from Tezpur University</h2>
-        </div>
-    </section>
+            <nav>
+                <img src="./img/logonew2.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
 
-    <section id="aboutme" class="aboutme">
-        <h2>ABOUT ME</h2>
-        <div class="aboutme-section">
-            <div >
-                <div class="aboutme-image"></div>
-            </div>
-            <div class="aboutme-text">
-                <p>This is a good example of an attractive minimalistic of a creative person, where the “About me” <br>information is perfectly integrated into the design <br>of the website.</p>
-
-                <p>An elegant trendy dark background with geometric patterns, simple and clear navigation – this is <br>what a modern portfolio should look like!</p>
-
-                <p>Since all Weblium templates are developed on the basis of a deep study of the niche and harmoniously <br>combine the most current trends in web design, sometimes it’s enough to simply choose a template, <br>add your own unique content and get a beautiful website with the perfect navigation for your type of business!</p>
-            </div>
-        </div>
-    </section>
-
-    <div class="project" id="project">
-        <h2>PROJECTS</h2> 
-
-        <div class="projects">
-            <div class="project2">
-                <img id="earth" src="earth.jpg" alt="">
-                <h2>Project earth</h2>
-                <a href="#earth"><button class="button-43" role="button">View Project</button></a>
-            </div>
-            <div class="project2">
-                <img id="earth" src="earth.jpg" alt="">
-                <h2>Project moon</h2>
-                <a href="#earth"><button class="button-43" role="button">View Project</button></a>
+            <div class="header-text">
+                <h1>Hi, I am <span>Ananta Moran</span> from 
+                    
+                          <div class="horizontalFlip">
+                            <span>Assam</span>
+                            <span>অসম</span>
+                            <span>Assam</span>
+                            <span>অসম</span>
+                            <span>Assam</span>
+                          </div>
+                </h1>                
             </div>
         </div>
     </div>
 
-
-    <section id="contactme" class="contact">
-        <h2>Contact</h2>
-        <p>Use this form to get in touch. I would love to here from you.</p>
-        <form action="" class="contact-form">
-            <div class="contact-details">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="Yourname" placeholder="Yourname">
-
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" placeholder="Response for your message">
-
-                <label for="email">Email Address</label>
-                <input type="email" id="email" placeholder="Your email address">
-            </div>
-
-            <div class="message">
-                <label for="msg">Message</label>
-                <textarea name="msg" id="msg" rows="15"></textarea>
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-    </section>
-
-    <footer>
+<!-- About me -->
+    <div id="about">
         <div class="container">
-            <div class="copyright">
-                This site &copy; 2022 Ananta Moran
-            </div>
-            <div class="social-media">
-                <a href="https://www.facebook.com/ananta.moran.39/"><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
-                <a href="https://www.linkedin.com/in/ananta1579/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/about copy.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="margin-top: 20px;">Hi there! My name is Ananta Moran, and I'm a passionate web developer based in Assam. I have experience in building beautiful, functional websites and web applications for clients in a variety of industries.</p>
+                    <p>I specialize in front-end development using HTML, CSS, and JavaScript, as well as back-end development using PHP and MySQL. I have experience with a range of frameworks including Bootstrap, React.</p>
+                    <p>Take a look at some of my past projects in my portfolio, and feel free to get in touch if you're interested in working together. I'm always excited to take on new projects and help businesses and individuals build their online presence.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link">Skills</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    
+                </div>
             </div>
         </div>
-    </footer>
+    </div>
+    <!-- about -->
+
+
+    <!-- education -->
+    <div class="edu" id="edu">
+        <div class="container">
+            <h1>Education</h1>
+            <div class="course">
+                <div>
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h2 style="margin: 20px 0;">Master of Computer Application</h2>
+                    <p>2021 - ongoing</p>
+                    <p>Tezpur University</p>
+                    <address>Napaam, Tezpur, Assam 784028</address>
+                    <a href="./img/CSM21044.pdf">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2 style="margin-top: 20px;">Bachelor in Science</h2>
+                    <h3 style="margin-bottom: 20px;">Physics Honors</h3>
+                    <p>2017 - 2020</p>
+                    <p>Dibru College</p>
+                    <address>Dibrugarh, Assam 786003</address>
+                    <a href="./img/Screenshot 2022-01-09 at 4.16.55 PM.png">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2 style="margin: 20px 0;">Schooling</h2>
+                    <p>2005 - 2017</p>
+                    <p>Kendriya Vidyalaya</p>
+                    <address>Doom Dooma, Tinsukia 786159</address>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- education -->
+
+
+    <!-- Projects -->
+    <div id="projects">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/Screenshot 2023-03-19 at 1.51.08 AM.png" alt="">
+                    <div class="layer">
+                        <h1>Secret Dairy</h1>
+                        <p>A simple dairy to store your thoughts with a login id and password.</p>
+                        <button class="button"><a href="https://anantamoran.000webhostapp.com/index.php">Visit</a></button>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="./img/Screenshot 2023-03-19 at 1.52.37 AM.png" alt="">
+                    <div class="layer">
+                        <h1>CashFlow Minimzation</h1>
+                        <p>A randomly generate graph with minimzation solution using graph</p>
+                        <button class="button"><a href="https://ananta1579.github.io/cashflowminimise.github.io/">Visit</a></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+
+    <!-- contact -->
+    <div class="contact" id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h6 class="sub-title">Contact Me</h6>
+                <p><i class="fa-regular fa-envelope"></i>anantamoran@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 7086131529</p>
+                <div class="social-icons">
+                    <a href="https://m.facebook.com/100003961481485/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/ananta1579/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ananta1579/"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ananta1579/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <button class="button" style="margin: 10px;"><a href="./img/sample2.pdf">Download CV</a></button>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email " required>
+                    <textarea name="message" id="" cols="30" rows="6" placeholder="Your message"></textarea>
+                    <button class="button" style="margin: 10px;"><a href="">Submit</a></button>
+                </form>
+            </div>
+        </div>
+    </div>    
+    <!-- contact -->
+    
 </body>
 </html>
